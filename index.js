@@ -1,3 +1,5 @@
 'use strict';
 
-console.log('hello word. following classe lecture example');
+require('./lib/greet.js');
+
+console.log('msg from index.js. following classe lecture example');
