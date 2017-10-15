@@ -1,0 +1,22 @@
+{
+  "name": "lab-01-node-ecosystem",
+  "version": "0.0.1",
+  "description": "this is me trying to start my assignment ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvl1720/lab-01-node-ecosystem.git"
+  },
+  "author": "max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvl1720/lab-01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/pvl1720/lab-01-node-ecosystem#readme"
+}
