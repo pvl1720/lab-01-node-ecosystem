@@ -6,17 +6,16 @@ let expect = require ('expect');
 
 
 describe ('success', function () {
+  it ('alert correct', function () {
+    let response = arithmetic.add (1, 2);
+    expect (response).toEqual (3);
+  }}));
 
-    it ('alert correct', function () {
-      let response = arithmetic.add (1, 2);
-      expect (response).toEqual (3);
-    }}));
-
-    it ('error must enter numbers', function () {
-      let response = arithmetic.add ('hello', 7);
-      expect (response).toEqual ('error');
-    });
-    }
+  it ('error must enter numbers', function () {
+    let response = arithmetic.add ('hello', 7);
+    expect (response).toEqual ('error');
+  });
+}
 })
 
 

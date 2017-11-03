@@ -12,7 +12,7 @@ describe ('success', function () {
   })
 });
 
-  it ('return hello world', function () {
-    let response = greet ('world');
-    expect (response).toEqual ('hello world');
-  })};
+it ('return hello world', function () {
+  let response = greet ('world');
+  expect (response).toEqual ('hello world');
+})};
