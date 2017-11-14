@@ -21,7 +21,7 @@ describe('Arithmetic subtract', function() {
 
   it('can subtract one number from another properly', function() {
     let results = arithmetic.subtract(4,1);
-    expect(results).toEqual(8);
+    expect(results).toEqual(3);
   });
 
   it('should be null if one isn\'t a number', function() {
