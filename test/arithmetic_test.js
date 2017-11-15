@@ -7,7 +7,7 @@ describe('Arithmetic add', function() {
 
   it('can add two numbers properly', function() {
     let results = arithmetic.add(1,7);
-    expect(results).toEqual(9);
+    expect(results).toEqual(8);
   });
 
   it('should be null if one isn\'t a number', function() {
