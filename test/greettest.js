@@ -5,18 +5,18 @@ const greet = require ('../lib/greet.js');
 const expect = require ('expect');
 
 
-describe('success', () => {
+describe('greet module should be a success', function(){
 
-  it('error', function () {
+  it('should return error null', function() {
     let response = greet(100);
     expect(response).toEqual(null);
 
   });
-});
 
-  it ('return hello world', () => {
-    let response = greet ('world');
-    expect (response).toEqual ('hello world');
+
+  it ('should return hello world', function(){
+    let response = greet('world');
+    expect(response).toEqual('hello world');
 
   });
 });

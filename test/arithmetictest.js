@@ -7,36 +7,36 @@ const expect = require('expect');
 
 
 
-describe('success', () => {
+describe('should manage requests properly', function(){
 
-  it ('alert correct', () => {
-    let response = arithmetic.add (1, 2);
-    expect (response).toEqual (3);
-  });
+  it('should return correct sum total', function(){
+    let response = arithmetic.add (10, 3);
+    expect(response).toEqual (13);
+
 });
 
 
-  it ('error must enter numbers', () => {
-    let response = arithmetic.add ('hello', 7);
-    expect (response).toEqual ('error');
+  it('should return error must enter numbers', function(){
+    let response = arithmetic.add('hello', 12);
+    expect(response).toEqual (null);
 
   });
+
 });
 
 
-describe ('success', () => {
+describe('subtract module should input successly', function(){
 
-  it ('return answer if numbers', () => {
-    let response = arithmetic.subtract (2, 1);
-    expect (response).toEqual ('1');
+  it('should return answer when both numbers are given', function(){
+    let response = arithmetic.subtract (3, 8);
+    expect (response).toEqual (5);
 
   });
-});
 
 
-  it ('return null if non numbers', () => {
+  it('return null if non numbers', () => {
     let response = arithmetic.subtract ('bye', 'bye');
-    expect (response).toEqual (null);
+    expect(response).toEqual(null);
 
   });
 });
