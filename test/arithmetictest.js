@@ -10,8 +10,8 @@ const expect = require('expect');
 describe('should manage requests properly', function(){
 
   it('should return correct sum total', function(){
-    let response = arithmetic.add (10, 3);
-    expect(response).toEqual (13);
+    let response = arithmetic.add (10, 10);
+    expect(response).toEqual (20);
 
 });
 

@@ -17,7 +17,7 @@ describe('greet module should be a success', function(){
 
   it ('should return hello world', function(){
     let response = greet('world');
-    expect(response).toEqual('hello world');
+    expect(response).toEqual('Hello world');
 
   });
 });
